@@ -733,9 +733,9 @@ color: white;
 .slideShow{
   margin: auto;
   position: relative;
-  width: 65%;
-  height: 80%;
-  margin-top: 5%;
+  width: 60%;
+  height: 60%;
+  top:28%;
   display: flex;
   justify-content: center;
   z-index: 999;
@@ -808,11 +808,11 @@ cursor: pointer;
 
 
 .botonAtras{
-  left: 10px;
+  left: 0px;
 }
 
 .botonAdelante{
-  right: 10px;
+  right: 0px;
 }
 
 
@@ -1468,6 +1468,34 @@ padding: 10px;
 }
 
 
+.slideShow{
+
+  width: 70%;
+  height: 70%;
+  top:28%;
+  right: 2%;
+ 
+  z-index: 999;
+}
+
+
+#popup-img span {
+  top: -5px;
+  right: -50px;
+  padding-bottom: 5px;
+
+}
+
+
+.botonAtras{
+  left: -50px;
+}
+
+.botonAdelante{
+  right: -50px;
+}
+
+
 
 .contentContacto{
   flex-direction: column;
@@ -1835,6 +1863,33 @@ padding: 10px;
   grid-row-start: span 1;
 }
 
+.slideShow{
+
+  width: 70%;
+  height: 70%;
+  top:28%;
+  right: 2%;
+ 
+  z-index: 999;
+}
+
+
+#popup-img span {
+  top: -35px;
+  right: -50px;
+  padding-bottom: 5px;
+
+}
+
+
+.botonAtras{
+  left: -50px;
+}
+
+.botonAdelante{
+  right: -50px;
+}
+
 
 .contentContacto{
   flex-direction: column;
@@ -2050,6 +2105,23 @@ width: 50%;
   height: auto;
 }
 
+#popup-img span {
+  top: -35px;
+  right: -50px;
+  padding-bottom: 5px;
+
+}
+
+
+.botonAtras{
+  left: -50px;
+}
+
+.botonAdelante{
+  right: -50px;
+}
+
+
 
 .contentRedesContacto{
  align-items: center;
@@ -2159,6 +2231,23 @@ padding: 4rem 0;
 .tituloNosotros{
 width: 100%;
 }
+
+#popup-img span {
+  top: -35px;
+  right: -40px;
+  padding-bottom: 5px;
+
+}
+
+
+.botonAtras{
+  left: -40px;
+}
+
+.botonAdelante{
+  right: -40px;
+}
+
 
 .contentContacto{
   flex-direction: column;
