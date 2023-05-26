@@ -1075,7 +1075,7 @@ ul li .formControl.falla input {
 
 /*Iconos arriba del Footer*/
 .IconosFooter{
-  background-color: rgba(170, 192, 244, 0.2);
+  background-color: rgba(0, 0, 0, 0.04);
   height: auto;
   display: flex;
  align-items: center;
@@ -1104,7 +1104,7 @@ justify-content: center;
  }
 
  .cajaIcono:hover{
-  background-color: rgba(170, 192, 244, 0.4);
+  background-color: rgba(0, 0, 0, 0.07);
  }
 
 
