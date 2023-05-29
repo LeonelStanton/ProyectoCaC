@@ -228,7 +228,7 @@ color:#85AEFF
 /*Primer Slide*/ 
 
 #slide-0{
-  background: url(../images/4.jpg) no-repeat center/cover;
+  background: url(../images/portada1.jpg) no-repeat center/cover;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -325,7 +325,7 @@ color:#85AEFF
 /*Segundo Slide*/ 
 
 #slide-1{
-  background: url(../images/5.jpg) no-repeat center/cover;
+  background: url(../images/portada2.jpg) no-repeat center/cover;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -351,7 +351,7 @@ color:#85AEFF
 /*Tercer Slide*/ 
 
 #slide-2{
-  background: url(../images/6.png) no-repeat center/cover;
+  background: url(../images/portada3.png) no-repeat center/cover;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1333,8 +1333,9 @@ nav ul li a:hover{
 }
 
 .botonPrincipal{
-  width: 40%;
-  font-size: 1rem;
+  width: 30%;
+  font-size: 0.9rem;
+  padding: 10px;
 }
 
 #slide-1 .texto1{
@@ -1747,8 +1748,8 @@ nav.active {
 }
 
 .botonPrincipal{
-  width: 38%;
-  font-size: 1.1rem;
+  width: 33%;
+  font-size: 1rem;
 }
 
 #slide-1 .texto1{
