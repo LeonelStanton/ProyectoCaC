@@ -1153,8 +1153,9 @@ font-family: 'Barlow Semi Condensed', sans-serif;
   justify-items: center;
   align-items: center;
   /* FONDO CON IMAGEN */
-  background: url(../images/borroso.png) no-repeat fixed black;
+  background: url(../images/borroso.png) no-repeat fixed;
   background-size: cover;
+  box-shadow: inset 0 0 0 1000px rgba(133, 174, 255, .3);
  
   /* FONDOS CON GRADIENTES */
   /*background: linear-gradient(to top, #9E650E, white);*/
@@ -1193,14 +1194,14 @@ font-family: 'Barlow Semi Condensed', sans-serif;
 .pie-pagina .grupo2{
   width: 100%;
   text-align: center;
-  background-color:#85AEFF;
+  background-color: #588cfc ;
   color: white;
 }
 
 
 /*Primer Mediquerie*/ 
 
-@media(min-width:370px) and (max-width:576px){
+@media(max-width:576px){
   
   section[id]{
     scroll-margin-top:248px;
@@ -1374,19 +1375,12 @@ nav ul li a:hover{
 .titulo-servicios::after,
 .titulo-servicios::before {
   
-  top:3rem;
-  width: 100%;
+  width: 0%;
  
 }
 
-.titulo-servicios::before {
-  left: 0%;
 
-}
 
-.titulo-servicios::after {
-  right: 0%;
-}
 
 .card-container {
   flex-direction: column;
@@ -1395,8 +1389,13 @@ nav ul li a:hover{
 
 .servicios-card{
 width: 90%;
+
  }
 
+ .servicios-card-texto{
+  width: 90%;
+ 
+ }
 
 .separadorSeccion h3::before, .separadorSeccion h3::after{
   width: 0;
