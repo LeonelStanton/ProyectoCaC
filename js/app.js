@@ -202,7 +202,7 @@ let contador=0;
 async function cargarLivings(){
  try{
 
-  const resp = await fetch("./js/datos.json");
+  const resp = await fetch("./js/productos.json");
   const data = await resp.json();
   cad=`
 <div class="img-container animate__animated animate__fadeIn">`;
@@ -226,7 +226,7 @@ async function cargarLivings(){
 async function cargarGazebos(){
   try{
  
-   const resp = await fetch("./js/datos.json");
+   const resp = await fetch("./js/productos.json");
    const data = await resp.json();
    cad=`
  <div class="img-container animate__animated animate__fadeIn">`;
@@ -249,7 +249,7 @@ async function cargarGazebos(){
  async function cargarSillas(){
   try{
  
-   const resp = await fetch("./js/datos.json");
+   const resp = await fetch("./js/productos.json");
    const data = await resp.json();
    cad=`
  <div class="img-container animate__animated animate__fadeIn">`;

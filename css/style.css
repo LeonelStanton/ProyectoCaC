@@ -1157,8 +1157,6 @@ font-family: 'Barlow Semi Condensed', sans-serif;
   background-size: cover;
   box-shadow: inset 0 0 0 1000px rgba(133, 174, 255, .3);
  
-  /* FONDOS CON GRADIENTES */
-  /*background: linear-gradient(to top, #9E650E, white);*/
 }
 
 .pie-pagina .grupo1 .caja{
@@ -1175,22 +1173,22 @@ font-family: 'Barlow Semi Condensed', sans-serif;
 }
 .pie-pagina .grupo1 .caja .redes a{
   text-decoration: none;
-  color: black;   /*ESTILO DE LOS LINK DE "REDES"*/
+  color: black;   
 }
 .pie-pagina .grupo1 .caja .redes :hover{
-  transform: scale(1.15) ; /* AGRANDA EL TAMAÑO DE LOS ICONOS CUANDO PASA EL CURSOR*/
+  transform: scale(1.15) ; 
   transition-duration: 0.5s;
 }
 .pie-pagina .grupo1 .caja i,p,h3{
   padding: 0.3rem;
-  margin-bottom: 0.2rem; /*ESTILO PARA LAS TRES COLUMNAS DEL GRUPO 1*/
+  margin-bottom: 0.2rem; 
 }
 
 .pie-pagina h3{
   color: white;
 }
 
-/* ESTILO RENGLÓN NEGRO DEL FOOTER */
+
 .pie-pagina .grupo2{
   width: 100%;
   text-align: center;
