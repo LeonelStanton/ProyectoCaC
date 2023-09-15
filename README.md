@@ -6,3 +6,4 @@ Web de alquiler de livings con validación de formulario y galeria dinámica est
 
 - AOS
 - Font Awesome
+- Animate
