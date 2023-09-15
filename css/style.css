@@ -606,7 +606,7 @@ height: 140px;
 }
 
 #seccionNosotros .contentNosotros{
-  padding:4rem 3rem;
+  padding:4rem 10rem;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -638,6 +638,7 @@ height: 140px;
 
 #seccionNosotros .ImgNosotros{
   box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+  border-radius: 20%;
 
 }
 
