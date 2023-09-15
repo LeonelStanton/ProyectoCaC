@@ -1,6 +1,6 @@
 # ProyectoCaC
 
-Web de alquiler de livings, estilo one page, creada solo a base de Html, Css y JavaScript.
+Web de alquiler de livings con validación de formulario y galeria dinámica estilo one page, creada solo a base de Html, Css y JavaScript vanilla.
 
 # Librerías utilizadas
 
